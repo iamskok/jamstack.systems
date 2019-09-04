@@ -3,7 +3,7 @@ module.exports = {
     {
       resolve: 'gatsby-theme-mdx-deck',
       options: {
-        contentPath: './src/decks',
+        contentPath: `${__dirname}/src/decks`,
         basePath: '/'
       }
     }
