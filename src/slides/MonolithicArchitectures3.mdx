@@ -1,0 +1,21 @@
+import Layout from '../components/Layout'
+
+<Image
+  alt='What should be simple'
+  src='https://media.giphy.com/media/l0HlGmbxkwkICKykM/source.gif'
+  size='cover'
+  style={{
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: 'white',
+  }}>
+  <h1>What should be simple</h1>
+</Image>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
