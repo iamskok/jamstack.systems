@@ -2,18 +2,24 @@ import Layout from '../components/Layout'
 import GIF from '../images/simple.gif'
 
 <Image
-  alt='What should be simple'
+  alt='What should be simple is actually pretty complex'
   src={ GIF }
   size='cover'
-  style={{
+  sx={{
+    color: '#000',
+    fontSize: '64px',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
-    color: 'white',
-  }}>
-  <h1>What should be simple</h1>
+    justifyContent: 'space-between'
+  }}
+>
+  <Appear>
+    <h2>WHAT SHOULD BE SIMPLE</h2>
+    <h2>IS ACTUALLY PRETTY COMPLEX</h2>
+  </Appear>
 </Image>
+
 
 export default ({ children }) => (
   <Layout>
