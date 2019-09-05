@@ -1,0 +1,15 @@
+import Layout from '../components/Layout'
+import shopifyLogo from '../images/shopify-logo.png'
+
+The architectures imposed by monolithic applications can undermine our ability to 
+utilize the latest technologies and even affect such things as our development workflows.
+
+<Appear>
+  <img src={ shopifyLogo } width="100" />
+</Appear>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
