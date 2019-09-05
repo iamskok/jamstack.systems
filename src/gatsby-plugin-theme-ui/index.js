@@ -8,11 +8,12 @@ export default {
   // to help avoid a flash of colors on page load
   useCustomProperties: true,
   colors: {
-    primary: '#bf4080',
-    text: '#222',
-    background: '#ffe000',
+    primary: '#460069',
+    text: '#111',
+    background: '#d23669',
     modes: {
       dark: {
+        primary: '#7c00bb',
         text: ' #fff',
         background: '#222',
       }
