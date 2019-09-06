@@ -1,9 +1,9 @@
 import React from 'react'
-import HeaderButton from './HeaderButton'
+import ThemeToggle from './ThemeToggle'
 
 export default ({ children }) => (
   <>
-    <HeaderButton />
+    <ThemeToggle />
 
     { children }
   </>
