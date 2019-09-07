@@ -1,0 +1,13 @@
+import Layout from '../components/Layout'
+
+Plug-ins are tied directly to the core framework. Because they’re 
+notoriously insecure and require frequent (and often buggy 🐛) updates,
+hastily updated plug-ins run the risk of breaking the entire site. 
+Maintainers are left to choose between security patches and the
+risk of breaking site functionality.
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
