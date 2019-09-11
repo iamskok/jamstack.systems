@@ -1,0 +1,18 @@
+import Layout from '../components/Layout'
+import royFielding from '../images/roy-fielding.jpg'
+
+Modern web APIs were officially born with
+[Roy Fielding](https://twitter.com/fielding)’s dissertation,
+“Architectural Styles and the Design of Network-Based Software Architectures,”
+in 2000.
+
+It defined Representational State Transfer (REST) as a scalable and
+discoverable architecture for services exposed through HTTP.
+
+<img src={ royFielding } width="100" />
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
