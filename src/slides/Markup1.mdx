@@ -1,0 +1,16 @@
+import Layout from '../components/Layout'
+
+👴In the early days of the web, a website was a simple folder with
+HTML files exposed over HTTP. As the web evolved, we began moving 
+to a model in which a running program on the server would build 
+the HTML on the fly for each visit.
+
+This was a much slower, more complex process than serving static
+assets, but it was also the only viable way to work around the fact
+that **browsers were simple document viewers 👀** at the time. 
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)

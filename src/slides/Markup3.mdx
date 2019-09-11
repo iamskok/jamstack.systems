@@ -1,0 +1,18 @@
+import Layout from '../components/Layout'
+
+This creates a strict decoupling between the frontend and any 
+backend APIs.
+
+It allows us to remove a large set of moving parts from the
+infrastructure and live system, which makes it much easier to 
+consider the frontend and individual APIs involved in isolation. 
+The more we can **[bake, not fry](http://www.aaronsw.com/weblog/000404)**, 
+the content layer of our site, the more simple deployments, scaling, 
+and security become, and the better the performance and end-user 
+experience will be.
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
