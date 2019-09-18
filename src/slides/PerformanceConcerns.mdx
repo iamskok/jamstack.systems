@@ -1,0 +1,27 @@
+import Layout from '../components/Layout'
+
+# Monolithic apps need to generate and deliver HTML **every time** a new visitor arrives on the site 🐢
+
+<Notes>
+  1. It significantly slows down page load time.
+  2. Caching is another part of overall site 
+  performance that’s notoriously difficult to
+  get right. It’s possible that the same URL
+  can return different content depending on 
+  a variety of parameters, including whether a
+  user is logged in or the site was previously
+  running a split test. 3. Performance isn’t
+  dictated by speed alone. Because monolithic
+  apps are so large, it can be difficult to
+  define architectural boundaries. The code
+  is so interconnected that fixing a 🐛,
+  updating a library, or changing a framework
+  in one part of the app can break another
+  part of it.
+</Notes>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
