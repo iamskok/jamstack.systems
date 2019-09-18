@@ -1,11 +1,13 @@
-import React from 'react'
+/** @jsx jsx */
 import { useColorMode } from 'theme-ui'
+import { jsx } from 'theme-ui'
 
+// add swisse & deep modes
 export default props => {
   const [colorMode, setColorMode] = useColorMode()
   return (
     <header
-      style={{
+      sx={{
         top: '0',
         right: '0',
         position: 'absolute',
@@ -15,10 +17,10 @@ export default props => {
     >
       <button
         onClick={e => {
-          setColorMode(colorMode === 'light' ? 'dark' : 'light')
+          setColorMode(colorMode === 'swiss' ? 'dark' : 'swiss')
         }}
       >
-        Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
+        Toggle {colorMode === 'swiss' ? 'Dark' : 'Swiss'}
       </button>
     </header>
   )
