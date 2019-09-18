@@ -1,8 +1,24 @@
 import Layout from '../components/Layout'
+import GIF from '../images/simple.gif'
 
-Monolithic applications are opinionated about how tasks on the
-server take place. The opinions they enforce have shaped how web
-development is approached.
+<Image
+  alt='What should be simple is actually pretty complex'
+  src={ GIF }
+  size='cover'
+  sx={{
+    color: '#000',
+    fontSize: '64px',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'space-between'
+  }}
+>
+  <Appear>
+    <h1>What should be simple is actually pretty complex</h1>
+  </Appear>
+</Image>
+
 
 export default ({ children }) => (
   <Layout>
