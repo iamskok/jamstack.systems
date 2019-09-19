@@ -1,0 +1,23 @@
+import Layout from '../components/Layout'
+
+# Infrastructure needs to be scaled in anticipation of site traffic.
+
+<Appear>
+  <h2>💸 Not only is that expensive, it’s also difficult to get right.</h2>
+</Appear>
+
+<Notes>
+  1. Because monolithic architecture requires the page view
+  to be generated for every visitor, infrastructure needs
+  to be scaled in anticipation of site traffic. 2. Teams end
+  up over-provisioning their infrastructure to prevent
+  downtime or risk a crash because there is no clear separation
+  between the infrastructure required to generate and manage the site
+  and that required to serve the site.
+</Notes>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
