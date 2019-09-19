@@ -17,10 +17,10 @@ export default props => {
     >
       <button
         onClick={e => {
-          setColorMode(colorMode === 'swiss' ? 'dark' : 'swiss')
+          setColorMode(colorMode === 'light' ? 'dark' : 'light')
         }}
       >
-        Toggle {colorMode === 'swiss' ? 'Dark' : 'Swiss'}
+        Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
       </button>
     </header>
   )

@@ -1,6 +1,6 @@
 export default {
   useCustomProperties: true,
-  initialColorMode: `system`,
+  initialColorMode: `deep`,
   colors: {
     text: `#000`,
     background: `#fff`,
@@ -31,7 +31,7 @@ export default {
         muted: `hsla(230, 20%, 0%, 20%)`,
         gray: `hsl(210, 50%, 60%)`
       },
-      swiss: {
+      light: {
         text: `hsl(10, 20%, 20%)`,
         background: `hsl(10, 10%, 98%)`,
         primary: `hsl(10, 80%, 50%)`,
