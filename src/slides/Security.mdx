@@ -1,0 +1,28 @@
+import Layout from '../components/Layout'
+
+<h2>
+  A minimal surface area with largely read-only hosting infrastructure
+</h2>
+
+<Appear>
+  <h2>
+    Decoupled services exposed to the build environment and not the public
+  </h2>
+  <h2>
+    An ecosystem of independently operated and secured external services
+  </h2>
+</Appear>
+
+<Notes>
+  Fewer pieces of infrastructure means fewer things to 
+  attack and fewer things on which you need to spend 
+  effort patching and protecting. Reducing surface area
+  is a good strategy toward improving security and 
+  minimizing avenues for attack.
+</Notes>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
