@@ -1,0 +1,31 @@
+import Layout from '../components/Layout'
+import royFielding from '../images/roy-fielding.jpg'
+
+# Modern web APIs were officially born with [Roy Fielding](https://twitter.com/fielding)’s dissertation, “Architectural Styles and the Design of Network-Based Software Architectures,” in 2000.
+
+### It defined Representational State Transfer (REST) as a scalable and discoverable architecture for services exposed through HTTP.
+
+<img src={ royFielding } width="100" />
+
+<Notes>
+  1. The first web APIs were meant to be consumed from 
+  server-side applications. 2. New standards like CORS,
+  WebSocket, and PostMessage paired with OAuth2 and
+  JSON Web Token for authorization and stateless 
+  authentication, suddenly made any modern web API 
+  reachable from any JavaScript client running in
+  a browser. 3. All of the web has become something
+  like a giant operating system. 4. We’re now seeing
+  APIs exposed for anything from payments or
+  subscriptions over advanced machine learning models
+  running in massive cloud environments, to services
+  that directly affect the physical world like shipping or
+  ride-sharing services, and just about anything else
+  you can imagine.
+</Notes>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
