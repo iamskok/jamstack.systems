@@ -1,0 +1,35 @@
+import Layout from '../components/Layout'
+
+> # Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.
+>
+> _by [jamstack.org](https://jamstack.org)_
+
+<Appear>
+  <h2>
+    The JAMstack is a name to a set of widely used architectural practices.
+    It gives us one word to communicate a large range of architectural decisions.
+  </h2>
+</Appear>
+
+<Notes>
+  1. An entire community grew up around the first mature generation of
+  static site generators like Jekyll, Middleman, Metalsmith, Cactus, 
+  and Roots. 2. The tools brought back a feeling of simplicity and 
+  control from the complex database-based CMSs that they replaced.
+  3. At the same time, single-page app frameworks like Vue and React
+  started a process of decoupling the frontend from the backend, 
+  introducing build tools like Grunt, Gulp, Webpack and Babel.
+  4. This brought a proper software architecture to the frontend
+  workflow and empowered frontend developers to iterate much faster
+  on the UI and interaction layer. 5. When these approaches to 
+  building websites and applications intersected, a new API
+  ecosystem began to emerge. Tools like Stripe, Disqus, and Algolia 
+  made payments, comments, and search available directly from the 
+  frontend via API-driven services.
+</Notes>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
