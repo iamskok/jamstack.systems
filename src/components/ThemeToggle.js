@@ -2,7 +2,6 @@
 import { useColorMode } from 'theme-ui'
 import { jsx } from 'theme-ui'
 
-// add swisse & deep modes
 export default props => {
   const [colorMode, setColorMode] = useColorMode()
   return (
