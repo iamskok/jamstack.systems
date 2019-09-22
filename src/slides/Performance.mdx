@@ -1,0 +1,28 @@
+import Layout from '../components/Layout'
+
+## For a long time, performance optimizations for websites focused primarily on the server side. So-called backend engineering was thought to be where serious engineering happened.
+
+<Appear>
+  <h3>Adding and managing caching layers between commonly requested resources</h3>
+  <h3>Fine-tuning database queries and designing data structures to minimize bottlenecks</h3>
+  <h3>Adding compute power and load balancing to increase capacity and protect performance under load</h3>
+  <h3>Creating faster underlying network infrastructure to increase throughput within hosting platforms</h3>
+</Appear>
+
+<Notes>
+  1. Each area is important. Good web performance requires a concerted
+  effort at all levels of the stack, and a site will only be as performant
+  as its least performant link in the chain. JAMstack removes tiers from
+  that stack. It shortens that chain. Now operations on which teams used
+  to spend large amounts of time and money to optimize in an effort to
+  speed them up and make them more reliable don’t exist at runtime at all.
+  2. There is no code that can run faster than zero code. This kind of
+  simplification and separation of the building of sites from the serving
+  of sites yields impressive results.
+</Notes>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
