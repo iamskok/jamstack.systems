@@ -1,0 +1,30 @@
+import Layout from '../components/Layout'
+
+## There are a variety of costs associated with designing, developing, and operating websites and applications, and they are undoubtedly influenced by the stack we choose.
+
+<Notes>
+  1. Capacity planning exercise is an important step for
+  determining how much the site will cost to operate.
+  It is difficult to estimate how much traffic a site
+  will receive ahead of time so it is a common practice
+  to overprovision servers. 2. With traditional 
+  architectures the capacity has to extend
+  through each tier often resulting in multiple servers
+  for databases, application servers, caching servers,
+  load balancers, message queues. 3. Web development
+  projects also require multiple environments such as
+  staging, testing and development, which requires a
+  duplication of production infrustructure. 4. JAMstack
+  sites benefit from a far simpler technical architecture.
+  The burden of scaling a JAMstack site to satisfy 
+  large peaks in traffic typically falls on CDN that is
+  serving the site assets. 6. The JAMstack dramatically
+  reduces the financial costs of building and maintaining
+  websites and applications.
+</Notes>
+
+export default ({ children }) => (
+  <Layout>
+    { children }
+  </Layout>
+)
