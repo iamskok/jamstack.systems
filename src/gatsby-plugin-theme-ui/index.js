@@ -1,6 +1,6 @@
 export default {
-  useCustomProperties: true,
   initialColorMode: `system`,
+  useCustomProperties: true,
   colors: {
     text: `hsl(10, 20%, 20%)`,
     background: `hsl(10, 10%, 98%)`,
@@ -20,6 +20,36 @@ export default {
         highlight: `#29112c`,
         gray: `#999`,
         accent: `#c0f`
+      },
+      gray: {
+        text: '#fff',
+        background: 'hsl(270, 30%, 14%)',
+        primary: 'hsl(180, 100%, 60%)',
+        secondary: 'hsl(270, 100%, 60%)',
+        accent: 'hsl(300, 100%, 60%)',
+        muted: 'hsl(270, 50%, 8%)',
+        gray: 'hsl(270, 50%, 70%)',
+        lightgray: 'hsl(270, 50%, 30%)',
+      },
+      hack: {
+        text: 'hsl(120, 100%, 75%)',
+        background: 'hsl(120, 20%, 10%)',
+        primary: 'hsl(120, 100%, 40%)',
+        secondary: 'hsl(120, 50%, 40%)',
+        accent: 'hsl(120, 100%, 90%)',
+        muted: 'hsl(120, 20%, 7%)',
+        gray: 'hsl(120, 20%, 40%)',
+        lightgray: 'hsl(120, 20%, 20%)',
+      },
+      pink: {
+        text: 'hsl(350, 80%, 10%)',
+        background: 'hsl(350, 100%, 90%)',
+        primary: 'hsl(350, 100%, 50%)',
+        secondary: 'hsl(280, 100%, 50%)',
+        accent: 'hsl(280, 100%, 20%)',
+        muted: 'hsl(350, 100%, 88%)',
+        gray: 'hsl(350, 40%, 50%)',
+        lightgray: 'hsl(350, 60%, 80%)',
       }
     }
   },
@@ -38,6 +68,17 @@ export default {
     48,
     64,
     72
+  ],
+  space: [
+    0,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512
   ],
   fontWeights: {
     body: 400,
@@ -73,7 +114,7 @@ export default {
     root: {
       fontFamily: `body`,
       lineHeight: `body`,
-      fontWeight: `body`
+      fontWeight: `body`,
     },
     h1: {
       variant: `textStyles.display`
@@ -100,6 +141,7 @@ export default {
     },
     a: {
       color: `primary`,
+      transition: 'color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94)',
       '&:hover': {
         color: `secondary`
       }
