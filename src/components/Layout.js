@@ -1,10 +1,10 @@
 /** @jsx jsx */
-import ThemeToggle from './ThemeToggle'
 import { jsx } from 'theme-ui'
+import Header from './Header'
 
 export default ({ children }) => (
   <div sx={{ maxWidth: '80vw' }}>
-    <ThemeToggle />
+    <Header />
 
     { children }
   </div>
