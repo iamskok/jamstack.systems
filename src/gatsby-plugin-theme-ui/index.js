@@ -83,6 +83,7 @@ export default {
   fontWeights: {
     body: 400,
     heading: 700,
+    link: 700,
     display: 900
   },
   lineHeights: {
@@ -140,6 +141,8 @@ export default {
       fontSize: 1
     },
     a: {
+      fontSize: 2,
+      fontWeight: `link`,
       color: `primary`,
       transition: 'color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94)',
       '&:hover': {
