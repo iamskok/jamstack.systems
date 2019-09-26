@@ -16,7 +16,8 @@
     "gatsby": "^2.15.2",
     "gatsby-theme-mdx-deck": "^3.0.9",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "react-pose": "^4.0.8"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
