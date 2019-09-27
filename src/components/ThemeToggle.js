@@ -57,6 +57,9 @@ export default props => {
         backgroundColor: 'transparent',
         outline: 'none',
         transition: 'box-shadow .2s ease-out, color .2s ease-out',
+        zIndex: 2000,
+        height: '100%',
+        cursor: 'pointer',
         '&:hover, &:focus': {
           boxShadow: '0 0 0 2px'
         }
