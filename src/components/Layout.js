@@ -9,14 +9,17 @@ export default ({ children }) => {
   return (
     <Fragment>
       <Header
-        opened={opened}
-        close={() => setOpened(!opened)}
+        opened={ opened }
+        close={ () => setOpened(!opened) }
       />
-      <main sx={{
-        px: 3,
-        py: 4
-      }}>
-        {children}
+      <main
+        sx={{
+          px: 3,
+          py: 4,
+          maxWidth: '1000px'
+        }}
+      >
+        { children }
       </main>
     </Fragment>
   )
