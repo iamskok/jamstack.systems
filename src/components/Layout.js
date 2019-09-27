@@ -1,11 +1,23 @@
 /** @jsx jsx */
+import { useState, Fragment } from 'react'
 import { jsx } from 'theme-ui'
 import Header from './Header'
 
-export default ({ children }) => (
-  <div sx={{ maxWidth: '80vw' }}>
-    <Header />
+export default ({ children }) => {
+  const [opened, setOpened] = useState(false);
 
-    { children }
-  </div>
-)
+  return (
+    <Fragment>
+      <Header
+        opened={opened}
+        close={() => setOpened(!opened)}
+      />
+      <main sx={{
+        px: 3,
+        py: 4
+      }}>
+        {children}
+      </main>
+    </Fragment>
+  )
+}
