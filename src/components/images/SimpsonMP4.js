@@ -23,6 +23,10 @@ export default () => {
     fluid ?
     <Image
       fluid={ fluid }
+      sx={{
+        maxWidth: 382,
+        maxHeight: 264,
+      }}
       alt="What should be simple is actually pretty painful"
     /> :
     <div
