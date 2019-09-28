@@ -5,6 +5,7 @@ import { Link } from 'gatsby'
 const TOC = ({ children, opened }) => (
   <section sx={{
     position: 'absolute',
+    overflowY: 'scroll',
     top: 0,
     left: 0,
     display: 'flex',
