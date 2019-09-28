@@ -1,11 +1,13 @@
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
- 
+
 export default () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(name: { eq: "monolithic-architecture" }) {
+      image: file(name: { eq: "jamstack-ecosystem" }) {
         cloudinary: childCloudinaryAsset {
           fluid {
             ...CloudinaryAssetFluid
@@ -15,5 +17,14 @@ export default () => {
     }
   `)
 
-  return <Image fluid={ data.image.cloudinary.fluid } alt="Monolithic Architectures" />
+  return (
+    <Image
+      fluid={data.image.cloudinary.fluid}
+      alt='JAMstack Ecosystem'
+      sx={{
+        margin: 'auto',
+        maxWidth: '750px'
+      }}
+    />
+  )
 }

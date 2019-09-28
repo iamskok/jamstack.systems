@@ -16,7 +16,8 @@ export default ({ children }) => {
         sx={{
           px: 3,
           py: 4,
-          maxWidth: '1000px'
+          width: '100%',
+          maxWidth: '1200px'
         }}
       >
         { children }
