@@ -1,19 +1,20 @@
 import Layout from '../components/Layout'
-import shopifyLogo from '../images/shopify-logo.png'
-import drupalLogo from '../images/drupal-logo.png'
-import joomlaLogo from '../images/joomla-logo.png'
-import magentoLogo from '../images/magento-logo.png'
-import wordpressLogo from '../images/wordpress-logo.png'
+import LogosContainer from '../components/LogosContainer'
+import Shopify from '../components/images/Shopify'
+import Drupal from '../components/images/Drupal'
+import Joomla from '../components/images/Joomla'
+import Magento from '../components/images/Magento'
+import Wordpress from '../components/images/Wordpress'
 
 # The freedom to do good work is regularly compromised by complex monolithic applications
 
-<Appear>
-  <img src={ shopifyLogo } width="200px"/>
-  <img src={ drupalLogo } width="200px" />
-  <img src={ joomlaLogo } width="200px" />
-  <img src={ magentoLogo } width="200px" />
-  <img src={ wordpressLogo } width="200px" />
-</Appear>
+<LogosContainer>
+  <Wordpress />
+  <Shopify />
+  <Drupal />
+  <Joomla />
+  <Magento />
+</LogosContainer>
 
 <Notes>
   <p>
