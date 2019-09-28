@@ -15,5 +15,5 @@ export default () => {
     }
   `)
 
-  return <Image fluid={ data.file.childCloudinaryAsset.fluid } alt='Pain' />;
+  return <Image fluid={ data.file.childCloudinaryAsset.fluid } alt='What should be simple is actually pretty painful' />
 }
