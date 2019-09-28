@@ -12,7 +12,6 @@ export default () => {
       cloudName: 'iamskok',
       originalHeight:  264,
       originalWidth: 382,
-      breakpoints: [200, 400],
       transformations: ['t_gif-to-mp4-transform'],
     })
     .then(result => setFluid(result))
