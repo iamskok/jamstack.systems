@@ -1,4 +1,5 @@
-import React from 'react';
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { graphql, useStaticQuery } from 'gatsby';
 import Image from 'gatsby-image';
 
@@ -19,6 +20,9 @@ export default () => {
     <Image
       fixed={data.image.cloudinary.fixed}
       alt="Phil Hawksworth"
+      sx={{
+        borderRadius: 9999
+      }}
     />
   )
 }
