@@ -27,8 +27,10 @@ export default () => {
     /> :
     <div
       sx={{
-        maxWidth: 264,
-        maxHeight: 382,
+        height: '100vh',
+        width: '100vw',
+        maxWidth: 382,
+        maxHeight: 264,
       }}
     />
   )
