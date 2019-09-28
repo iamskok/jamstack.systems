@@ -15,5 +15,5 @@ export default () => {
     }
   `)
 
-  return <Image fluid={ data.image.cloudinary.fluid } alt='Monolithic Architectures' />;
+  return <Image fluid={ data.image.cloudinary.fluid } alt="Monolithic Architectures" />
 }
