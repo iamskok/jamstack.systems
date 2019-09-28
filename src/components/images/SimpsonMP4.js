@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
 import { getFluidImageObject } from 'gatsby-transformer-cloudinary'
 
@@ -17,9 +18,17 @@ export default () => {
     .then(result => setFluid(result))
   }, [])
 
-  return (
-    <>
-      {fluid ? <Image fluid={fluid} alt="What should be simple is actually pretty painful" /> : <p>What should be simple is actually pretty painful..</p>}
-    </>
-  )
+  const data = useStaticQuery(graphql`
+    query {
+      file(name: { eq: "simpson" }) {
+        childCloudinaryAsset {
+          fluid {
+            ...CloudinaryAssetFluid
+          }
+        }
+      }
+    }
+  `)
+
+  return fluid ? <Image fluid={fluid} alt="Jason" /> : <Image fluid={ data.file.childCloudinaryAsset.fluid } />
 }
