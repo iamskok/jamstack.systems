@@ -1,6 +1,11 @@
 import Layout from '../components/Layout'
+import Costs from '../components/images/Costs'
 
 ## There are a variety of costs associated with designing, developing, and operating websites and applications, and they are undoubtedly influenced by the stack we choose.
+
+<Split>
+  <Costs />
+</Split>
 
 <Notes>
   1. Capacity planning exercise is an important step for
@@ -23,8 +28,4 @@ import Layout from '../components/Layout'
   websites and applications.
 </Notes>
 
-export default ({ children }) => (
-  <Layout>
-    { children }
-  </Layout>
-)
+export default ({ children }) => <Layout title="Costs">{ children }</Layout>

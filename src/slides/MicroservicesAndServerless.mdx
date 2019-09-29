@@ -1,8 +1,11 @@
 import Layout from '../components/Layout'
+import Serverless from '../components/images/Serverless'
 
-# Microservice-based architecture and Serverless
+# Serverless is a glue to deliver business value
 
-<img src="https://media.giphy.com/media/lT7CHkMpTYe9G/giphy.gif" />
+<Split>
+  <Serverless />
+</Split>
 
 <Notes>
   Microservice-based architecture and Serverless happened in tandem
@@ -18,8 +21,4 @@ import Layout from '../components/Layout'
   deliver business value.
 </Notes>
 
-export default ({ children }) => (
-  <Layout>
-    { children }
-  </Layout>
-)
+export default ({ children }) => <Layout title="⚡️ Microservices and Serverless">{ children }</Layout>

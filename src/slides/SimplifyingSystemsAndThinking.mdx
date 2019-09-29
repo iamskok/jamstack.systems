@@ -1,6 +1,11 @@
 import Layout from '../components/Layout'
+import ZeroCode from '../components/images/ZeroCode'
 
-# Executing zero code will always be faster than executing some code.
+# Executing zero code will always be faster than executing some code
+
+<Split>
+  <ZeroCode />
+</Split>
 
 <Notes>
 It’s very difficult for the same person to be both an expert in
@@ -23,8 +28,4 @@ any moving parts will always be easier to scale than even the most
 highly optimized dynamic program.
 </Notes>
 
-export default ({ children }) => (
-  <Layout>
-    { children }
-  </Layout>
-)
+export default ({ children }) => <Layout>{ children }</Layout>
