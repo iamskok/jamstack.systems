@@ -2,8 +2,10 @@
 import { useState, Fragment } from 'react'
 import { jsx } from 'theme-ui'
 import Header from './Header'
+import Body from './Body'
+import Footer from './Footer'
 
-export default ({ children }) => {
+export default ({ children, title }) => {
   const [opened, setOpened] = useState(false);
 
   return (
@@ -12,16 +14,12 @@ export default ({ children }) => {
         opened={ opened }
         close={ () => setOpened(!opened) }
       />
-      <main
-        sx={{
-          px: 3,
-          py: 4,
-          width: '100%',
-          maxWidth: '1200px'
-        }}
-      >
+
+      <Body>
         { children }
-      </main>
+      </Body>
+
+      <Footer title={ title } />
     </Fragment>
   )
 }
