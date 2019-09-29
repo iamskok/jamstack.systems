@@ -1,18 +1,31 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
+import { useDeck } from 'gatsby-theme-mdx-deck'
 
-export default ({ title }) => (
-  <footer
-    sx={{
-      position: 'absolute',
-      right: 0,
-      bottom: 0,
-      fontSize: 3,
-      fontWeight: 'body',
-      p: 2,
-      color: 'accent',
-    }}
-  >
-    { title }
-  </footer>
-)
+export default ({ title }) => {
+  const { index, length } = useDeck()
+  console.log('index', index)
+  console.log('length', length)
+
+  return (
+    <footer>
+      <div
+        sx={{
+          variant: 'footNotes',
+          left: 0
+        }}
+      >
+        { index } / { length }
+      </div>
+
+      <div
+        sx={{
+          variant: 'footNotes',
+          right: 0
+        }}
+      >
+        { title }
+      </div>
+    </footer>
+  )
+}
