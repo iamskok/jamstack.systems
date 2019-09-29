@@ -18,7 +18,7 @@ export default () => {
 
   return (
     <Image
-      fluid={data.image.cloudinary.fluid}
+      fluid={ data.image.cloudinary.fluid }
       alt='JAMstack Ecosystem'
       sx={{
         margin: 'auto',
