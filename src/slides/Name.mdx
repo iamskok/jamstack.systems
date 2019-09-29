@@ -1,14 +1,17 @@
 import Layout from '../components/Layout'
+import AppearText from '../components/AppearText'
 
 > # Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup.
 >
 > _by [jamstack.org](https://jamstack.org)_
 
 <Appear>
-  <h2>
-    The JAMstack is a name to a set of widely used architectural practices.
-    It gives us one word to communicate a large range of architectural decisions.
-  </h2>
+  <div>
+    <AppearText>
+      The JAMstack is a name to a set of widely used architectural practices.
+      It gives us one word to communicate a large range of architectural decisions.
+    </AppearText>
+  </div>
 </Appear>
 
 <Notes>
@@ -28,4 +31,4 @@ import Layout from '../components/Layout'
   frontend via API-driven services.
 </Notes>
 
-export default ({ children }) => <Layout>{ children }</Layout>
+export default ({ children }) => <Layout title="What’s in a Name 🤨">{ children }</Layout>

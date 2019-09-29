@@ -1,15 +1,18 @@
 import Layout from '../components/Layout'
 import BrendanEich from '../components/images/BrendanEich'
+import AppearText from '../components/AppearText'
 
 # JavaScript prototype was born in May 1995 for a [10 day](https://thenewstack.io/brendan-eich-on-creating-javascript-in-10-days-and-what-hed-do-differently-today/) spree by [Brendan Eich](https://brendaneich.com/).
 
 <BrendanEich />
 
 <Appear>
-  <h2>
-    JavaScript is to the JAMstack what C was to Unix, as
-    the browsers have become the operating system of the web.
-  </h2>
+  <div>
+    <AppearText>
+      JavaScript is to the JAMstack what C was to Unix, as
+      the browsers have become the operating system of the web.
+    </AppearText>
+  </div>
 </Appear>
 
 <Notes>
@@ -25,4 +28,4 @@ import BrendanEich from '../components/images/BrendanEich'
   like Elm, ReasonML, ClojureScript, and TypeScript.
 </Notes>
 
-export default ({ children }) => <Layout>{ children }</Layout>
+export default ({ children }) => <Layout title="JavaScript 💛">{ children }</Layout>

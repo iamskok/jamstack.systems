@@ -1,9 +1,14 @@
 import Layout from '../components/Layout'
+import AppearText from '../components/AppearText'
 
 # Infrastructure needs to be scaled in anticipation of site traffic.
 
 <Appear>
-  <h2>💸 Not only is that expensive, it’s also difficult to get right.</h2>
+  <div>
+    <AppearText>
+      Not only is that expensive, it’s also difficult to get right 💸
+    </AppearText>
+  </div>
 </Appear>
 
 <Notes>
@@ -16,4 +21,4 @@ import Layout from '../components/Layout'
   and that required to serve the site.
 </Notes>
 
-export default ({ children }) => <Layout>{ children }</Layout>
+export default ({ children }) => <Layout title="Scaling Challenges ⚠️">{ children }</Layout>

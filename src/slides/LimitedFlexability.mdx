@@ -9,11 +9,23 @@ import Wordpress from '../components/images/Wordpress'
 # The freedom to do good work is regularly compromised by complex monolithic applications
 
 <LogosContainer>
-  <Wordpress />
-  <Shopify />
-  <Drupal />
-  <Joomla />
-  <Magento />
+  <Appear>
+    <div>
+      <Wordpress />
+    </div>
+    <div>
+      <Shopify />
+    </div>
+    <div>
+      <Drupal />
+    </div>
+    <div>
+      <Joomla />
+    </div>
+    <div>
+      <Magento />
+    </div>
+  </Appear>
 </LogosContainer>
 
 <Notes>
@@ -31,4 +43,4 @@ import Wordpress from '../components/images/Wordpress'
   </p>
 </Notes>
 
-export default ({ children }) => <Layout>{ children }</Layout>
+export default ({ children }) => <Layout title="Limited Flexability 🆘">{ children }</Layout>
