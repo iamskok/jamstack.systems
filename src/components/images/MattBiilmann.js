@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
+import { graphql, useStaticQuery } from 'gatsby'
+import Image from 'gatsby-image'
 
 export default () => {
   const data = useStaticQuery(graphql`

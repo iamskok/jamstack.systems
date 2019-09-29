@@ -5,10 +5,10 @@ import Image from 'gatsby-image'
 export default () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(name: { eq: "drupal-logo" }) {
+      image: file(name: { eq: "serverless" }) {
         cloudinary: childCloudinaryAsset {
-          fixed(width: 200) {
-            ...CloudinaryAssetFixed
+          fluid {
+            ...CloudinaryAssetFluid
           }
         }
       }
@@ -17,8 +17,8 @@ export default () => {
 
   return (
     <Image
-      fixed={ data.image.cloudinary.fixed }
-      alt="Drupal Logo"
+      fluid={ data.image.cloudinary.fluid }
+      alt="Microservices and Serverless"
     />
   )
 }

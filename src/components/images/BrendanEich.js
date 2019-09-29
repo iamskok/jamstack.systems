@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui'
-import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
+import { graphql, useStaticQuery } from 'gatsby'
+import Image from 'gatsby-image'
 
 export default () => {
   const data = useStaticQuery(graphql`
@@ -19,7 +19,7 @@ export default () => {
   return (
     <Image
       fixed={ data.image.cloudinary.fixed }
-      alt="JavaScript father Brendan Eich"
+      alt="Brendan Eich is the father of REST API"
       sx={{
         borderRadius: 9999
       }}
