@@ -6,7 +6,7 @@ import Body from './Body'
 import Footer from './Footer'
 
 export default ({ children, title }) => {
-  const [opened, setOpened] = useState(false);
+  const [opened, setOpened] = useState(false)
 
   return (
     <Fragment>
