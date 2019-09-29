@@ -105,7 +105,7 @@ export default {
       fontWeight: `display`,
       letterSpacing: `-0.03em`,
       mt: 3
-    }
+    },
   },
   styles: {
     Container: {
@@ -195,5 +195,14 @@ export default {
       borderBottom: `1px solid`,
       borderColor: `muted`
     }
+  },
+  footNotes: {
+    position: 'absolute',
+    bottom: 0,
+    color: 'accent',
+    fontFamily: 'monospace',
+    fontSize: 3,
+    fontWeight: 'display',
+    p: 2
   }
 }
