@@ -20,8 +20,7 @@ export default ({ opened, close }) => (
           justifyContent: 'space-between',
           alignItems: 'center',
           width: '100%',
-          px: 2,
-          py: 2,
+          p: 2
         }}
       >
         <Logo
