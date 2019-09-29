@@ -1,4 +1,5 @@
-import React from 'react'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { graphql, useStaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
 
@@ -18,7 +19,11 @@ export default () => {
   return (
     <Image
       fluid={ data.image.cloudinary.fluid }
-      alt="Legacy webstack vs JAMstack life cycle request comparison between"
+      alt='Legacy webstack vs JAMstack life cycle request comparison between'
+      sx={{
+        margin: 'auto',
+        maxWidth: '750px'
+      }}
     />
   )
 }
