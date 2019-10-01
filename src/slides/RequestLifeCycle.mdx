@@ -1,9 +1,16 @@
 import Layout from '../components/Layout'
 import LifeCycleRequest from '../components/images/LifeCycleRequest'
 
-# Consider a typical request life cycle on a relatively simple, but dynamic, site architecture
+# A typical request life cycle on a relatively simple, but dynamic, site architecture
 
-<LifeCycleRequest />
+<Split
+  style={{
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start'
+  }}
+>
+  <LifeCycleRequest />
+</Split>
 
 <Notes>
   1. A browser makes a request for a page.

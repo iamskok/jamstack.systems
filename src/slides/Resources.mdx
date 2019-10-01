@@ -1,10 +1,21 @@
 import Layout from '../components/Layout'
+import Resources from '../components/images/Resources'
 
-# Resources
+# Learn More
 
-* [Netlify JAMstack Book]()
-* [Static site generators]()
-* [Services]()
-* [Hosting]()
+* [Modern web development on the JAMstack](https://www.netlify.com/pdf/oreilly-modern-web-development-on-the-jamstack.pdf)
+* [A List of Static Site Generators for JAMstack Sites](https://www.staticgen.com/)
+* [A List of Content Management Systems for JAMstack Sites](https://headlesscms.org)
+* [Awesome JAMstack](https://github.com/automata/awesome-jamstack)
+* [JAMstack Conferences](https://jamstackconf.com/)
+
+<Split
+  style={{
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start'
+  }}
+>
+  <Resources />
+</Split>
 
 export default ({ children }) => <Layout title="Resources 📚">{ children }</Layout>
