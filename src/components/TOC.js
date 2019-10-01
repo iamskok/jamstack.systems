@@ -31,8 +31,17 @@ export default ({ opened }) => (
       <span role="img" aria-label="book">📖</span> Table of content
     </Styled.h1>
 
-    <Styled.ul>
-      <Styled.li>
+    <Styled.ul
+      sx={{
+        listStyle: 'none'
+      }}
+    >
+      <Styled.li
+        sx={{
+          fontWeight: 'display',
+          fontSize: 3
+        }}
+      >
         The Challenges of Modern Web Development
         <span
           role="img"
@@ -43,7 +52,11 @@ export default ({ opened }) => (
         </span>
       </Styled.li>
 
-      <Styled.ul>
+      <Styled.ul
+        sx={{
+          listStyle: 'none'
+        }}
+      >
         <Styled.li>
           <Styled.a
             as={ Link }
@@ -136,7 +149,12 @@ export default ({ opened }) => (
         </Styled.li>
       </Styled.ul>
 
-      <Styled.li>
+      <Styled.li
+        sx={{
+          fontWeight: 'display',
+          fontSize: 3
+        }}
+      >
         WTF is JAM?
         <span
           role="img"
@@ -147,7 +165,11 @@ export default ({ opened }) => (
         </span>
       </Styled.li>
 
-      <Styled.ul>
+      <Styled.ul
+        sx={{
+          listStyle: 'none'
+        }}
+      >
         <Styled.li>
           <Styled.a
             as={ Link }
@@ -270,7 +292,12 @@ export default ({ opened }) => (
         </Styled.li>
       </Styled.ul>
 
-      <Styled.li>
+      <Styled.li
+        sx={{
+          fontWeight: 'display',
+          fontSize: 3
+        }}
+      >
         Advantages of the JAMstack
         <span
           role="img"
@@ -281,7 +308,11 @@ export default ({ opened }) => (
         </span>
       </Styled.li>
 
-      <Styled.ul>
+      <Styled.ul
+        sx={{
+          listStyle: 'none'
+        }}
+      >
         <Styled.li>
           <Styled.a
             as={ Link }
