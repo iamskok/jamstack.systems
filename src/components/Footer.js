@@ -13,7 +13,7 @@ export default ({ title }) => {
           left: 0
         }}
       >
-        { index } / { length }
+        { index } / { length - 1 }
       </div>
 
       <div
