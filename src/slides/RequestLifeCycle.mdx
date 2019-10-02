@@ -1,7 +1,7 @@
 import Layout from '../components/Layout'
 import LifeCycleRequest from '../components/images/LifeCycleRequest'
 
-# A typical request life cycle on a relatively simple, but dynamic, site architecture
+# A typical request life cycle on a dynamic site
 
 <Split
   style={{
@@ -13,13 +13,20 @@ import LifeCycleRequest from '../components/images/LifeCycleRequest'
 </Split>
 
 <Notes>
-  1. A browser makes a request for a page.
-  2. The request is handled by a web server that inspects the URL requested and routes the request to the correct piece of internal logic to determine how it should be satisfied.
-  3. The web server passes the request to an application server that holds logic on which templates should be combined with data from various sources.
-  4. The application server requests data from a database (and perhaps external systems) and renders this into a response.
-  5. The response is passed back from the application server to the web server and then on to the browser where it can be displayed to the user.
-  1. A browser makes a request for a page.
-  2. A CDN matches that request to a ready-made response and returns that to the browser where it can be displayed to the user.
+  Let's compare all the steps which have to be done by Monolithic
+  App vs JAMstack in order to serve a page for a user. For monolithic
+  apps: 1. A browser makes a request for a page. 2. The request is
+  handled by a web server that inspects the URL requested and routes
+  the request to the correct piece of internal logic to determine how
+  it should be satisfied. 3. The web server passes the request to an
+  application server that holds logic on which templates should be
+  combined with data from various sources. 4. The application server
+  requests data from a database and renders this into a response.
+  5. The response is passed back from the application server to the
+  web server and then on to the browser where it can be displayed to
+  the user. And for JAMstack: 1. A browser makes a request for a page.
+  2. A CDN matches that request to a ready-made response and returns
+  that to the browser where it can be displayed to the user.
 </Notes>
 
 export default ({ children }) => <Layout title="Request Life Cycle ♻️">{ children }</Layout>
