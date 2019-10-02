@@ -12,22 +12,21 @@ Let's have a look at this image.
 For every JAMstack project you'll have to choose a couple of things:
 1. JS framework (React, Vue, Svetle, Preact, Angular, etc)
 2. Static site generators. You should choose it depending on your tastes.
-You can go with Gatsby if you prefer JS, or you can choose Hugo with GO as it's
-templating language or you can even choose Jekyll with Liquid if you are feeling brave.
-And also consider project requirments, because all SSG are different. E.g. if you are concerned
-with build time you might look into HUGO. Smashing magazine reported that it's 7500 page website
-is getting generated in 13 seconds.
-3. CMS (Senity, Contentful, strapi, netlify CMS, etc).
-You can choose between a headless CMS (Senity, Contentful) which is a back-end
-only content management system that makes content accessible via a RESTful API.
-Or you can choose a git centric CMS such as Netlify CMS. It stores content in
-your Git repository alongside with the code for easier versioning and you can
-handle updates directly in Git.
-4. Deployment provider (zeit, netlify, google firebase). Your deployemnt provider
-will:
-* runs automated builds of your site using your favorite build tools
-* generates a full preview site for every push
-* preserve every historical version of your site
+You can go with Gatsby if you prefer JS, or you can choose Hugo with GO
+as it's templating language or you can even choose Jekyll with Liquid if
+you are feeling brave. And also consider project requirments, because
+all SSG are different. E.g. if you are concerned with build time you might
+look into HUGO. Smashing magazine reported that it's 7500 page website
+is getting generated in 13 seconds. 3. CMS. You can choose between a headless
+CMS (Senity, Contentful) which is a back-end only content management system
+that makes content accessible via a RESTful API. Or you can choose a git
+centric CMS such as Netlify CMS. It stores content in your Git repository
+alongside with the code for easier versioning and you can handle updates
+directly in Git. 4. Deployment provider (zeit, netlify, google firebase).
+Your deployemnt provider will take care of:
+* running automated builds of your site using your favorite build tools
+* generating a full preview site for every push
+* preserving every historical version of your site
 </Notes>
 
 export default ({ children }) => <Layout title="Ecosystem 🌐">{ children }</Layout>
