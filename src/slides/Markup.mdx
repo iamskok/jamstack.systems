@@ -2,8 +2,8 @@ import Layout from '../components/Layout'
 import CDN from '../components/images/CDN'
 
 <h1>
-  The JAMstack approach is to prebuild all the markup up
-  front and serve it directly to the browser from a CDN ⚡️.
+  The JAMstack approach is to prebuild all the markup up front and serve
+  it directly to the browser from a CDN ⚡️
 </h1>
 
 <Split
@@ -16,23 +16,23 @@ import CDN from '../components/images/CDN'
 </Split>
 
 <Notes>
-  1. In the early days of the web a website was a simple folder with
-  HTML files exposed over HTTP. As the web evolved we began moving 
-  to a model in which a running program on the server would build 
-  the HTML on the fly for each visit. 2. This was a much slower
-  more complex process than serving static assets but it was also
-  the only viable way to work around the fact that browsers were
-  simple document viewers at the time. 3. JAMstack approach 
-  is to prebuild all the markup up front and serve it directly 
-  to the browser from a CDN. 4. This process typically involves
-  a static site generator like Gatsby or Jekyll and a frontend 
-  build tool like Webpack where content and templates are combined
-  into HTML source files are transpiled or compiled into 
-  JavaScript and CSS runs through preprocessors or postprocessors.
-  5.This creates a strict decoupling between the frontend and any 
-  backend APIs. It allows us to remove a large set of moving parts
-  from the infrastructure and make it much easier to consider 
-  the frontend and individual APIs involved in isolation.
+  [SKIP READING TITLE]. In the early days of the web a website was
+  a simple folder with HTML files exposed over HTTP. As the web
+  evolved we began moving to a model in which a running program on
+  the server would build the HTML on the fly for each visit. This
+  was a much slower more complex process than serving static assets
+  but it was also the only viable way to work around the fact that
+  browsers were simple document viewers at the time. The JAMstack
+  approach is to prebuild all the markup up front and serve it directly 
+  to the browser from a CDN. This process typically involves a static
+  site generator like Gatsby or Jekyll and a frontend build tool like
+  Webpack where content and templates are combined into HTML source
+  files are transpiled or compiled into JavaScript and CSS runs through
+  preprocessors or postprocessors. This creates a strict decoupling
+  between the frontend and any backend APIs. It allows us to remove a
+  large set of moving parts from the infrastructure and make it much
+  easier to consider the frontend and individual APIs involved in
+  isolation.
 </Notes>
 
 export default ({ children }) => <Layout title="Markup 📝">{ children }</Layout>
