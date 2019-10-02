@@ -1,25 +1,25 @@
-import Layout from '../components/Layout'
-import HTMLGeneration from '../components/images/HTMLGeneration'
+import Layout from '../components/Layout'
+import HTMLGeneration from '../components/images/HTMLGeneration'
 
 <h1>
-  Monolithic apps need to generate and deliver HTML every time
-  a new visitor arrives on the site
+  Monolithic apps need to generate and deliver HTML every time
+  a new visitor arrives on the site
 </h1>
 
 <Split>
-  <HTMLGeneration />
+  <HTMLGeneration />
 </Split>
 
 <Notes>
-  This alone significantly slows down page load time, but performance
-  isn’t dictated by speed alone. Because monolithic apps are so large,
-  it can be difficult to define architectural boundaries. The code is
-  so interconnected that fixing a 🐛, updating a library, or changing
-  a framework in one part of the app can break another part of it.
-  Caching is another part of overall site performance. It’s possible
-  that the same URL can return different content depending on a
-  variety of parameters, including whether a user is logged in or the
-  site was previously running a split test.
+  This alone significantly slows down page load time, but performance
+  isn’t dictated by speed alone. Because monolithic apps are so large,
+  it can be difficult to define architectural boundaries. The code is
+  so interconnected that fixing a 🐛, updating a library, or changing
+  a framework in one part of the app can break another part of it.
+  Caching is another factor of overall site performance. It’s possible
+  that the same URL can return different content depending on a
+  variety of parameters, including whether a user is logged in or the
+  site was previously running a split test.
 </Notes>
 
-export default ({ children }) => <Layout title="Performance Concerns 🐢">{ children }</Layout>
+export default ({ children }) => <Layout title="Performance Concerns 🐢">{ children }</Layout>

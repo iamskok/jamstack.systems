@@ -1,10 +1,15 @@
-import Layout from '../components/Layout'
-import Simpson from '../components/images/Simpson'
+import Layout from '../components/Layout'
+import Simpson from '../components/images/Simpson'
 
-# What should be simple is actually pretty complex
+# What should be simple is actually pretty complex
 
-<Split>
-  <Simpson />
+<Split
+  style={{
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start'
+  }}
+>
+  <Simpson />
 </Split>
 
-export default ({ children }) => <Layout title="GIF of pain 🤕">{ children }</Layout>
+export default ({ children }) => <Layout title="GIF of pain 🤕">{ children }</Layout>
