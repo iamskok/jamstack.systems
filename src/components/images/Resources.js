@@ -1,4 +1,5 @@
-import React from 'react'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { graphql, useStaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
 
@@ -18,7 +19,10 @@ export default () => {
   return (
     <Image
       fluid={ data.file.childCloudinaryAsset.fluid }
-      alt='JamStack Resources'
+      alt='JAMstack Resources'
+      sx={{
+        maxWidth: '500px'
+      }}
     />
   )
 }
