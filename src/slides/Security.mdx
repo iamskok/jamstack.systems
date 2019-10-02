@@ -1,36 +1,33 @@
 import Layout from '../components/Layout'
 import AppearText from '../components/AppearText'
 
-# The reduced complexity of the JAMstack offers a greatly improved security profile for our sites
+# The reduced complexity of the JAMstack offers a greatly improved security profile
 
-<ul>
 <Appear>
-  <li>
+  <div>
     <AppearText>
-      A minimal surface area with largely read-only hosting infrastructure
+      🔘 A minimal surface area with largely read-only hosting infrastructure
     </AppearText>
-  </li>
-  <li>
+  </div>
+  <div>
     <AppearText>
-      Decoupled services exposed to the build environment and not the public
+      🔘 Decoupled services exposed to the build environment and not the pubdivc
     </AppearText>
-  </li>
-  <li>
+  </div>
+  <div>
     <AppearText>
-      An ecosystem of independently operated and secured external services
+      🔘 An ecosystem of independently operated and secured external services
     </AppearText>
-  </li>
+  </div>
 </Appear>
-</ul>
-
 
 <Notes>
   When considering security, the term surface area is often used to
   describe the amount of code, of infrastructure, and the scale of the
-  logical architecture at play in a system. Fewer pieces of 
-  infrastructure means fewer things to attack and fewer things on which
-  you need to spend effort patching and protecting. Reducing surface area
-  is a good strategy toward improving security and minimizing avenues for attack.
+  logical architecture at play in a system. Fewer pieces of infrastructure
+  means fewer things to attack and fewer things on which you need to spend
+  effort patching and protecting. Reducing surface area is a good strategy
+  toward improving security and minimizing avenues for attack.
 </Notes>
 
 export default ({ children }) => <Layout title="Security 🔐">{ children }</Layout>
