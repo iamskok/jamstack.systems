@@ -1,43 +1,46 @@
 import Layout from '../components/Layout'
 import AppearText from '../components/AppearText'
 
-# For a long time, performance optimizations for websites focused primarily on the server side. So-called backend engineering was thought to be where serious engineering happened.
+# For a long time, performance optimizations for websites focused primarily on the server side
 
-<ul>
 <Appear>
-  <li>
+  <div>
     <AppearText>
-      Adding and managing caching layers between commonly requested resources
+      🔘 Adding and managing caching layers between commonly requested
+      resources
     </AppearText>
-  </li>
-  <li>
+  </div>
+  <div>
     <AppearText>
-      Fine-tuning database queries and designing data structures to minimize bottlenecks
+      🔘 Fine-tuning database queries and designing data structures to
+      minimize bottlenecks
     </AppearText>
-  </li>
-  <li>
+  </div>
+  <div>
     <AppearText>
-      Adding compute power and load balancing to increase capacity and protect performance under load
+      🔘 Adding compute power and load balancing to increase capacity
+      and protect performance under load
     </AppearText>
-  </li>
-  <li>
+  </div>
+  <div>
     <AppearText>
-      Creating faster underlying network infrastructure to increase throughput within hosting platforms
+      🔘 Creating faster underlying network infrastructure to increase
+      throughput within hosting platforms
     </AppearText>
-  </li>
+  </div>
 </Appear>
-</ul>
 
 <Notes>
-  1. Each area is important. Good web performance requires a concerted
-  effort at all levels of the stack, and a site will only be as performant
-  as its least performant link in the chain. JAMstack removes tiers from
-  that stack. It shortens that chain. Now operations on which teams used
-  to spend large amounts of time and money to optimize in an effort to
-  speed them up and make them more reliable don’t exist at runtime at all.
-  2. There is no code that can run faster than zero code. This kind of
-  simplification and separation of the building of sites from the serving
-  of sites yields impressive results.
+  [SKIP READING TITLE] For a long time, performance optimizations for
+  websites focused primarily on the server side. So-called backend
+  engineering was thought to be where serious engineering happened.
+  [TOGGLE APPEAR] Each area is important. Good web performance requires
+  a concerted effort at all levels of the stack, and a site will only
+  be as performant as its least performant link in the chain. JAMstack
+  removes tiers from that stack. It shortens that chain. Now operations
+  on which teams used to spend large amounts of time and money to optimize
+  in an effort to speed them up and make them more reliable don’t exist
+  at runtime at all.
 </Notes>
 
 export default ({ children }) => <Layout title="Performance ⚡️">{ children }</Layout>
