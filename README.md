@@ -1,1 +1,1 @@
-# [JAMstack.systems](https://JAMstack.systems)
+# [JAMstack.systems](https://JAMstack.systems) [![Netlify Status](https://api.netlify.com/api/v1/badges/f0229821-2f9d-4a50-a8ee-942d78a1eda2/deploy-status)](https://app.netlify.com/sites/jamstack-systems/deploys)
