@@ -1,15 +1,19 @@
 import Layout from '../components/Layout'
 
-# According to recent estimates, Wordpress powers 29% of the web. Joomla and Drupal follow as the second and third most popular content management systems, respectively. That makes them a prime target for bad actors.
+<h1>
+  According to recent estimates, Wordpress powers 29% of the web. Joomla
+  and Drupal follow as the second and third most popular content management
+  systems, respectively. That makes them a prime target for bad actors.
+</h1>
+
 
 <Notes>
-  Monolithic apps like Wordpress, Drupal, and Joomla combine every
-  single component and plug-in of a web project’s architecture into a
-  single codebase. In turn, it creates a massive surface area for 
-  malware to penetrate. Not only is the attack surface area extremely
-  large, it’s also exposed every single time the site is built because any
-  plug-in the site uses must execute each time the page loads for a new
-  site visitor, magnifying the risk.
+  Monolithic apps combine every single component and plug-in of a web
+  project’s architecture into a single codebase. In turn, it creates a
+  massive surface area for malware to penetrate. Not only is the attack
+  surface area extremely large, it’s also exposed every single time the
+  site is built because any plug-in the site uses must execute each
+  time the page loads for a new site visitor, magnifying the risk.
 </Notes>
 
 export default ({ children }) => <Layout title="Security Woes 🕵️‍♀️">{ children }</Layout>
