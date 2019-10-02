@@ -111,10 +111,10 @@ export default ({ opened }) => (
           </Styled.a>
           <span
             role="img"
-            aria-label="Warning"
+            aria-label="Turtle"
           >
             {' '}
-            ☢️
+            🐢
           </span>
         </Styled.li>
         <Styled.li>
@@ -190,21 +190,6 @@ export default ({ opened }) => (
             as={ Link }
             to="/9"
           >
-            Ecosystem
-          </Styled.a>
-          <span
-            role="img"
-            aria-label="Globe"
-          >
-            {' '}
-            🌐
-          </span>
-        </Styled.li>
-        <Styled.li>
-          <Styled.a
-            as={ Link }
-            to="/10"
-          >
             Stack comparison
           </Styled.a>
           <span
@@ -218,7 +203,7 @@ export default ({ opened }) => (
         <Styled.li>
           <Styled.a
             as={ Link }
-            to="/11"
+            to="/10"
           >
             New architectural constraints
           </Styled.a>
@@ -233,7 +218,7 @@ export default ({ opened }) => (
         <Styled.li>
           <Styled.a
             as={ Link }
-            to="/12"
+            to="/11"
           >
            JavaScript
           </Styled.a>
@@ -248,7 +233,7 @@ export default ({ opened }) => (
         <Styled.li>
           <Styled.a
             as={ Link }
-            to="/13"
+            to="/12"
           >
            APIs
           </Styled.a>
@@ -263,7 +248,7 @@ export default ({ opened }) => (
         <Styled.li>
           <Styled.a
             as={ Link }
-            to="/14"
+            to="/13"
           >
            Markup
           </Styled.a>
@@ -278,7 +263,7 @@ export default ({ opened }) => (
         <Styled.li>
           <Styled.a
             as={ Link }
-            to="/15"
+            to="/14"
           >
            Serverless
           </Styled.a>
@@ -288,6 +273,21 @@ export default ({ opened }) => (
           >
             {' '}
             🔌
+          </span>
+        </Styled.li>
+        <Styled.li>
+          <Styled.a
+            as={ Link }
+            to="/15"
+          >
+            Ecosystem
+          </Styled.a>
+          <span
+            role="img"
+            aria-label="Globe"
+          >
+            {' '}
+            🌐
           </span>
         </Styled.li>
       </Styled.ul>
@@ -411,14 +411,14 @@ export default ({ opened }) => (
           to="/22"
         >
           Summary
-          </Styled.a>
+        </Styled.a>
         <span
           role="img"
           aria-label="Nerd"
         >
           {' '}
           🤓
-          </span>
+        </span>
       </Styled.li>
 
       <Styled.li>
@@ -427,14 +427,14 @@ export default ({ opened }) => (
           to="/23"
         >
           Resources
-          </Styled.a>
+        </Styled.a>
         <span
           role="img"
           aria-label="Books"
         >
           {' '}
           📚
-          </span>
+        </span>
       </Styled.li>
     </Styled.ul>
   </TOC>
