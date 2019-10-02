@@ -1,15 +1,9 @@
 import Layout from '../components/Layout'
 import Simpson from '../components/images/Simpson'
 
-# What should be simple is actually pretty complex
-
-<Split
-  style={{
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start'
-  }}
->
-  <Simpson />
-</Split>
+<SplitBottom>
+  <h1>What should be simple is actually pretty complex</h1>
+  <Simpson />
+</SplitBottom>
 
 export default ({ children }) => <Layout title="GIF of pain 🤕">{ children }</Layout>
