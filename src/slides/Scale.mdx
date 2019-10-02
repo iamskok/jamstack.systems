@@ -1,24 +1,27 @@
 import Layout from '../components/Layout'
 
-# The ability for hosting infrastructure to be able to meet the demands of a site’s audience is critical to its success.
+<h1>
+  The ability for hosting infrastructure to be able to meet the
+  demands of a site’s audience is critical to its success
+</h1>
 
 <Notes>
-  1. Most popular technique for high traffic websites is to add
-  a caching layer and perhaps also a CDN to their stack.
-  Sites built on traditional stacks need to manage their dynamically
-  created content into their various caching layers and CDNs. 2. In
+  Most popular technique for high traffic websites is to add a
+  caching layer and perhaps also a CDN to their stack. Sites built
+  on traditional stacks need to manage their dynamically
+  created content into their various caching layers and CDNs. In
   other words, dynamic sites add an extra layer of complexity just
   to allow them to be served with static hosting infrastructure to 
-  satisfy demand at scale. 3. With JAMstack our build can
-  output exactly the kinds of assets needed to go directly to the CDN
-  with no need to introduce additional layers of complexity. 
-  4. When designing web architectures, we aim to minimize the single
-  points of failure. When sites are being served directly from
-  a CDN, our own servers no longer act as a SPoF that could prevent a
-  visitor from reaching the site. Moreover, if any individual node
-  within a global CDN fails the traffic would be satisfied by
-  another node in the network. 5. Resiliency, redundancy, and capacity
-  are core advantages of delivering sites with the JAMstack.
+  satisfy demand at scale. With JAMstack our build can output exactly
+  the kinds of assets needed to go directly to the CDN with no need
+  to introduce additional layers of complexity. When designing web
+  architectures, we aim to minimize the single points of failure. When
+  sites are being served directly from a CDN, our own servers no longer
+  act as a SPoF that could prevent a visitor from reaching the site.
+  Moreover, if any individual node within a global CDN fails the
+  traffic would be satisfied by another node in the network. Resiliency,
+  redundancy, and capacity are core advantages of delivering sites with
+  the JAMstack.
 </Notes>
 
 export default ({ children }) => <Layout title="Scale 🌱">{ children }</Layout>
