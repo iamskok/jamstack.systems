@@ -1,4 +1,11 @@
 [build]
-  base = "/"
-  publish = "public"
+  publish = "public/"
   command = "yarn build"
+
+# Redirect rule defined in "_redirect" isn't working.
+# using netlify.toml instead.
+# Refer to the documentation - https://www.netlify.com/docs/netlify-toml-reference/#getting-started
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
