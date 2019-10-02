@@ -17,7 +17,7 @@ export default () => {
 
   return (
     <Image
-      fixed={data.image.cloudinary.fixed}
+      fixed={ data.image.cloudinary.fixed }
       alt="WordPress Logo"
     />
   )
