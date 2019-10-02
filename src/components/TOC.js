@@ -190,7 +190,7 @@ export default ({ opened }) => (
             as={ Link }
             to="/9"
           >
-            Stack comparison
+            Stacks comparison
           </Styled.a>
           <span
             role="img"

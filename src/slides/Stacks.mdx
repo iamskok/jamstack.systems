@@ -1,20 +1,14 @@
 import Layout from '../components/Layout'
 import Stacks from '../components/images/Stacks'
 
-# LEMP vs MEAN vs JAM
-
-<Split
-  style={{
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start'
-  }}
->
+<SplitBottom>
+  <h1>LEMP vs MEAN vs JAM</h1>
   <Stacks />
-</Split>
+</SplitBottom>
 
 <Notes>
   Before, we used to talk about the operating system, the database,
   and the web server when describing our stack.
 </Notes>
 
-export default ({ children }) => <Layout title="Stack comparison 📊">{ children }</Layout>
+export default ({ children }) => <Layout title="Stacks comparison 📊">{ children }</Layout>
