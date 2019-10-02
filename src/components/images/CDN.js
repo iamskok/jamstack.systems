@@ -21,8 +21,7 @@ export default () => {
       fluid={ data.image.cloudinary.fluid }
       alt='Prebuild all the markup up front'
       sx={{
-        margin: '-20px auto 0',
-        maxWidth: '750px'
+        maxWidth: '550px'
       }}
     />
   )

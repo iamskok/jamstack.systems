@@ -21,7 +21,6 @@ export default () => {
       fluid={ data.image.cloudinary.fluid }
       alt='JAMstack Ecosystem'
       sx={{
-        margin: 'auto',
         maxWidth: '750px'
       }}
     />

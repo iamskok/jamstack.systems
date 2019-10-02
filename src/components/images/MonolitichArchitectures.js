@@ -1,4 +1,5 @@
-import React from 'react'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { graphql, useStaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
  
@@ -15,5 +16,5 @@ export default () => {
     }
   `)
 
-  return <Image fluid={ data.image.cloudinary.fluid } alt="Monolithic Architectures" />
+  return <Image fluid={ data.image.cloudinary.fluid } alt="Monolithic Architectures" sx={{ maxWidth: '650px'}} />
 }

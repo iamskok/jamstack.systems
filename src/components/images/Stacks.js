@@ -18,11 +18,10 @@ export default () => {
 
   return (
     <Image
-      fluid={data.image.cloudinary.fluid}
-      alt='JAMstack Ecosystem'
+      fluid={ data.image.cloudinary.fluid }
+      alt='LAMP vs MEAN vs JAM stack comparison'
       sx={{
-        margin: 'auto',
-        maxWidth: '750px'
+        maxWidth: '850px'
       }}
     />
   )

@@ -20,10 +20,6 @@ export default () => {
     <Image
       fluid={ data.image.cloudinary.fluid }
       alt='Legacy webstack vs JAMstack life cycle request comparison between'
-      sx={{
-        margin: 'auto',
-        maxWidth: '750px'
-      }}
     />
   )
 }

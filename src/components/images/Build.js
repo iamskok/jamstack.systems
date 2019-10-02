@@ -6,7 +6,7 @@ import Image from 'gatsby-image'
 export default () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(name: { eq: "html-generation" }) {
+      image: file(name: { eq: "build" }) {
         cloudinary: childCloudinaryAsset {
           fluid {
             ...CloudinaryAssetFluid
@@ -19,7 +19,7 @@ export default () => {
   return (
     <Image
       fluid={ data.image.cloudinary.fluid }
-      alt='Monolithic apps need to generate and deliver HTML every time a new visitor arrives on the site'
+      alt="Now go and build something awesome"
       sx={{
         maxWidth: '750px'
       }}
