@@ -14,15 +14,10 @@ export default () => {
       originalHeight:  264,
       originalWidth: 382,
       breakpoints: [382, 400],
-      transformations: ['t_gif-to-mp4-transform'],
+      transformations: ['f_mp4'],
     })
-    .then(result => {
-      console.log('result', result)
-      setFluid(result)
-    })
+    .then(result => setFluid(result))
   }, [])
-
-  console.log('fluid', fluid)
 
   return (
     fluid ?
@@ -40,7 +35,6 @@ export default () => {
         width: '100vw',
         maxWidth: 382,
         maxHeight: 264,
-        backgroundColor: 'red'
       }}
     />
   )
