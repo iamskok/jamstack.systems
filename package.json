@@ -1,9 +1,17 @@
 {
-  "name": "gatsby-starter-mdx-deck",
+  "name": "jamstack-systems",
   "private": true,
-  "description": "mdx-deck starter for Gatsby",
+  "description": "Modern Web Development on the JAMstack",
   "version": "0.1.0",
   "license": "MIT",
+  "author": "Vladimir Skok",
+  "keywords": [
+    "gatsby",
+    "mdx",
+    "mdx-deck",
+    "cloudinary",
+    "netlify"
+  ],
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -26,9 +34,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamskok/gatsby-starter-mdx-deck"
+    "url": "https://github.com/iamskok/jamstack.systems"
   },
   "bugs": {
-    "url": "https://github.com/iamskok/gatsby-starter-mdx-deck/issues"
+    "url": "https://github.com/iamskok/jamstack.systems/issues"
   }
 }
