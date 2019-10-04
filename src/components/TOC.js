@@ -436,6 +436,22 @@ export default ({ opened }) => (
           📚
         </span>
       </Styled.li>
+      
+      <Styled.li>
+        <Styled.a
+          as={ Link }
+          to="/24"
+        >
+          About
+        </Styled.a>
+        <span
+          role="img"
+          aria-label="Question"
+        >
+          {' '}
+          ❓
+        </span>
+      </Styled.li>
     </Styled.ul>
   </TOC>
 )

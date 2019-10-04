@@ -39,17 +39,17 @@
   * [Serverless](https://JAMstack.systems/14) 🔌
   * [Ecosystem](https://JAMstack.systems/15) 🌐
 * **Advantages of the JAMstack?** 💪
-  * [Simplifying Systems and Thinking](https://JAMstack.systems/16) 🧠
-  * [Costs](https://JAMstack.systems/17) 💰
-  * [Scale](https://JAMstack.systems/18) 🌱
-  * [Performance](https://JAMstack.systems/19) ⚡️
-  * [Request Life Cycle](https://JAMstack.systems/20) ️️️️♻️
-  * [Request Life Cycle](https://JAMstack.systems/21) ️️️️♻️
-  * [Security](https://JAMstack.systems/22) ️️️️🔐
-* **[Summary](https://JAMstack.systems/23)** 🤓
-* **[Resources](https://JAMstack.systems/24)** 📚
+  * [Simplifying Systems and Thinking](https://jamstack.systems/16) 🧠
+  * [Costs](https://jamstack.systems/17) 💰
+  * [Scale](https://jamstack.systems/18) 🌱
+  * [Performance](https://jamstack.systems/19) ⚡️
+  * [Request Life Cycle](https://jamstack.systems/20) ️️️️♻️
+  * [Security](https://jamstack.systems/21) ️️️️🔐
+* **[Summary](https://jamstack.systems/22)** 🤓
+* **[Resources](https://jamstack.systems/23)** 📚
+* **[About](https://jamstack.systems/24)** ❓
 
-## About [JAMstack.systems](https://JAMstack.systems)
+## About [jamstack.systems](https://jamstack.systems)
 
 * Built with [Gatsby](https://gatsbyjs.org) and [MDX Deck](https://github.com/jxnblk/mdx-deck)
 * Styled with [Theme UI](https://theme-ui.com)
