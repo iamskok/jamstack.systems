@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://JAMstack.systems">
-    <img alt="JAMstack.systems logo" src="https://JAMstack.systems/logo.svg" width="60" />
+    <img alt="JAMstack.systems logo" src="https://jamstack.systems/logo.svg" width="60" />
   </a>
 </p>
 
