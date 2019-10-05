@@ -1,8 +1,11 @@
+const { siteMetadata } = require('./site-config')
+
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
 module.exports = {
+  siteMetadata,
   plugins: [
     {
       resolve: 'gatsby-theme-mdx-deck',
@@ -34,5 +37,6 @@ module.exports = {
         head: false
       },
     },
+    `gatsby-plugin-sitemap`
   ]
 }

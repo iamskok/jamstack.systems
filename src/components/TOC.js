@@ -21,15 +21,15 @@ const TOC = ({ children, opened }) => (
     transform: opened ? 'translate3D(0, 0, 0)' : 'translate3D(-100vw, 0, 0)',
     backgroundColor: 'background'
   }}>
-    {children}
+    { children }
   </section>
 )
 
 export default ({ opened }) => (
   <TOC opened={ opened }>
-    <Styled.h1>
+    <Styled.h2>
       <span role="img" aria-label="book">📖</span> Table of content
-    </Styled.h1>
+    </Styled.h2>
 
     <Styled.ul
       sx={{
