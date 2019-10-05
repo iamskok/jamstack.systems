@@ -3,6 +3,13 @@ require('dotenv').config({
 });
 
 module.exports = {
+  siteMetadata: {
+    title: 'JAMstack.systems',
+    description: 'Modern Web Development on the JAMstack.',
+    siteUrl: 'https://JAMstack.systems',
+    image: '/logo.svg',
+    twitter: "@iamskok",
+  },
   plugins: [
     {
       resolve: 'gatsby-theme-mdx-deck',
