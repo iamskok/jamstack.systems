@@ -35,35 +35,6 @@ const SEO = () => {
     }
   } = data.site
 
-  // const schemaOrgWebPage = {
-  //   '@context': 'http://schema.org',
-  //   '@type': 'WebPage',
-  //   url: siteUrl,
-  //   headline: title,
-  //   inLanguage: language,
-  //   mainEntityOfPage: siteUrl,
-  //   description,
-  //   name: title,
-  //   author: {
-  //     '@type': 'Person',
-  //     name
-  //   },
-  //   creator: {
-  //     '@type': 'Person',
-  //     name
-  //   },
-  //   publisher: {
-  //     '@type': 'Person',
-  //     name
-  //   },
-  //   datePublished: '2019-09-28T10:30:00+01:00',
-  //   dateModified: buildTime,
-  //   image: {
-  //     '@type': 'ImageObject',
-  //     url: image
-  //   }
-  // }
-
   const schemaArticle = {
     '@context': 'http://schema.org',
     '@type': 'Article',
