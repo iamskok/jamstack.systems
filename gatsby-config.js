@@ -9,7 +9,9 @@ module.exports = {
     siteUrl: 'https://JAMstack.systems',
     image: 'https://JAMstack.systems/featured-image.png',
     imageAlt: 'Multiple glass jam jars on brown wooden table',
+    name: 'Vladimir Skok',
     twitter: "@iamskok",
+    language: 'en'
   },
   plugins: [
     {

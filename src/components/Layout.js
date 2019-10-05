@@ -18,7 +18,9 @@ export default ({ children, title }) => {
       />
 
       <Body>
-        { children }
+        <Fragment>
+          { children }
+        </Fragment>
       </Body>
 
       <Footer title={ title } />
