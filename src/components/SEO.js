@@ -102,21 +102,21 @@ const SEO = () => {
       <title>{ title }</title>
       <link rel="canonical" href={ siteUrl } />
       <meta name="description" content={ description } />
-      {image && <meta name="image" content={ image } />}
+      <meta name="image" content={ image } />
 
       <meta property="og:url" content={ siteUrl } />
       <meta property="og:type" content="article" />
       <meta property="og:title" content={ title } />
       <meta property="og:description" content={ description } />
-      {image && <meta property="og:image" content={ image } />}
-      {image && <meta property="og:image:alt" content={ imageAlt } />}
+      <meta property="og:image" content={ image } />
+      <meta property="og:image:alt" content={ imageAlt } />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:creator" content={ twitter } />
       <meta name="twitter:title" content={ title } />
       <meta name="twitter:description" content={ description } />
-      {image && <meta name="twitter:image" content={ image } />}
-      {image && <meta name="twitter:image:alt" content={ imageAlt } />}
+      <meta name="twitter:image" content={ image } />
+      <meta name="twitter:image:alt" content={ imageAlt } />
 
       <script type="application/ld+json">{ JSON.stringify(schemaOrgWebPage) }</script>
       <script type="application/ld+json">{ JSON.stringify(schemaArticle) }</script>
