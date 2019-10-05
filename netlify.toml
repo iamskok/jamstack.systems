@@ -9,3 +9,8 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+[[redirects]]
+  from = "featured-image.png"
+  to = "featured-image.png"
+  status = 200
