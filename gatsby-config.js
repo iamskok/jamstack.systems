@@ -7,7 +7,8 @@ module.exports = {
     title: 'JAMstack.systems',
     description: 'Modern Web Development on the JAMstack.',
     siteUrl: 'https://JAMstack.systems',
-    image: '/logo.svg',
+    image: '/featured-image.jpeg',
+    imageAlt: 'Multiple glass jam jars on brown wooden table',
     twitter: "@iamskok",
   },
   plugins: [
