@@ -30,7 +30,7 @@ const TOC = ({ children, opened }) => (
 export default ({ opened }) => (
   <TOC opened={ opened }>
     <Styled.h1 as="h2">
-      <span role="img" aria-label="book">📖</span> Table of content
+      <span role="img" aria-label="book">📖</span>&nbsp;Table of content
     </Styled.h1>
 
     <Styled.ul
@@ -48,10 +48,7 @@ export default ({ opened }) => (
         <span
           role="img"
           aria-label="Drops"
-        >
-          {' '}
-          💦
-        </span>
+        >&nbsp;💦</span>
       </Styled.li>
 
       <Styled.ul
@@ -69,10 +66,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Zombie"
-          >
-            {' '}
-            🧟‍♂️
-          </span>
+          >&nbsp;🧟‍♂️</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -84,10 +78,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Sick"
-          >
-            {' '}
-            🤕
-          </span>
+          >&nbsp;🤕</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -99,10 +90,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="SOS"
-          >
-            {' '}
-            🆘
-          </span>
+          >&nbsp;🆘</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -114,10 +102,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Turtle"
-          >
-            {' '}
-            🐢
-          </span>
+          >&nbsp;🐢</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -129,10 +114,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Caution"
-          >
-            {' '}
-            ⚠️
-          </span>
+          >&nbsp;⚠️</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -144,10 +126,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Detective"
-          >
-            {' '}
-            🕵️‍♀️
-          </span>
+          >&nbsp;🕵️‍♀️</span>
         </Styled.li>
       </Styled.ul>
 
@@ -161,10 +140,7 @@ export default ({ opened }) => (
         <span
           role="img"
           aria-label="OMG Cat"
-        >
-          { ' ' }
-          🙀
-        </span>
+        >&nbsp;🙀</span>
       </Styled.li>
 
       <Styled.ul
@@ -182,10 +158,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Hmmm"
-          >
-            {' '}
-            🤨
-          </span>
+          >&nbsp;🤨</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -197,10 +170,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Chart"
-          >
-            {' '}
-            📊
-          </span>
+          >&nbsp;📊</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -212,10 +182,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Mountain"
-          >
-            {' '}
-            🏔
-          </span>
+          >&nbsp;🏔</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -227,10 +194,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Yellow Heart"
-          >
-            {' '}
-            💛
-          </span>
+          >&nbsp;💛</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -242,10 +206,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Cog"
-          >
-            {' '}
-            ⚙️
-          </span>
+          >&nbsp;⚙️</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -257,10 +218,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Notes"
-          >
-            {' '}
-            📝
-          </span>
+          >&nbsp;📝</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -272,10 +230,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Plug"
-          >
-            {' '}
-            🔌
-          </span>
+          >&nbsp;🔌</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -287,10 +242,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Globe"
-          >
-            {' '}
-            🌐
-          </span>
+          >&nbsp;🌐</span>
         </Styled.li>
       </Styled.ul>
 
@@ -304,10 +256,7 @@ export default ({ opened }) => (
         <span
           role="img"
           aria-label="Muscles"
-        >
-          {' '}
-          💪
-        </span>
+        >&nbsp;💪</span>
       </Styled.li>
 
       <Styled.ul
@@ -325,10 +274,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Brain"
-          >
-            {' '}
-            🧠
-          </span>
+          >&nbsp;🧠</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -340,10 +286,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Money"
-          >
-            {' '}
-            💰
-          </span>
+          >&nbsp;💰</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -355,10 +298,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Plant"
-          >
-            {' '}
-            🌱
-          </span>
+          >&nbsp;🌱</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -370,10 +310,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Light"
-          >
-            {' '}
-            ⚡️
-          </span>
+          >&nbsp;⚡️</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -385,10 +322,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Recycle"
-          >
-            {' '}
-            ♻️
-          </span>
+          >&nbsp;♻️</span>
         </Styled.li>
         <Styled.li>
           <Styled.a
@@ -400,10 +334,7 @@ export default ({ opened }) => (
           <span
             role="img"
             aria-label="Lock"
-          >
-            {' '}
-            🔐
-          </span>
+          >&nbsp;🔐</span>
         </Styled.li>
       </Styled.ul>
 
@@ -417,10 +348,7 @@ export default ({ opened }) => (
         <span
           role="img"
           aria-label="Nerd"
-        >
-          {' '}
-          🤓
-        </span>
+        >&nbsp;🤓</span>
       </Styled.li>
 
       <Styled.li>
@@ -433,10 +361,7 @@ export default ({ opened }) => (
         <span
           role="img"
           aria-label="Books"
-        >
-          {' '}
-          📚
-        </span>
+        >&nbsp;📚</span>
       </Styled.li>
       
       <Styled.li>
@@ -449,10 +374,7 @@ export default ({ opened }) => (
         <span
           role="img"
           aria-label="Question"
-        >
-          {' '}
-          ❓
-        </span>
+        >&nbsp;❓</span>
       </Styled.li>
 
       <Styled.li>
@@ -462,10 +384,7 @@ export default ({ opened }) => (
         <span
             role="img"
             aria-label="Source code"
-          >
-          {' '}
-          👨‍💻
-        </span>
+          >&nbsp;👨‍💻</span>
       </Styled.li>
     </Styled.ul>
   </TOC>
