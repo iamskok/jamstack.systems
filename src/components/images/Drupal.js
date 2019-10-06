@@ -1,4 +1,5 @@
-import React from 'react'
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
 import { graphql, useStaticQuery } from 'gatsby'
 import Image from 'gatsby-image'
 
@@ -7,8 +8,8 @@ export default () => {
     query {
       image: file(name: { eq: "drupal-logo" }) {
         cloudinary: childCloudinaryAsset {
-          fixed(width: 200) {
-            ...CloudinaryAssetFixed
+          fluid {
+            ...CloudinaryAssetFluid
           }
         }
       }
@@ -17,8 +18,12 @@ export default () => {
 
   return (
     <Image
-      fixed={ data.image.cloudinary.fixed }
-      alt="Drupal Logo"
+      fluid={ data.image.cloudinary.fluid }
+      alt='Drupal Logo'
+      sx={{
+        width: '20%',
+        flex: 1
+      }}
     />
   )
 }

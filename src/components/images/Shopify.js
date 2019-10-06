@@ -1,14 +1,15 @@
-import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
-import Image from 'gatsby-image';
+/** @jsx jsx */
+import { jsx } from 'theme-ui'
+import { graphql, useStaticQuery } from 'gatsby'
+import Image from 'gatsby-image'
 
 export default () => {
   const data = useStaticQuery(graphql`
     query {
       image: file(name: { eq: "shopify-logo" }) {
         cloudinary: childCloudinaryAsset {
-          fixed(width: 200) {
-            ...CloudinaryAssetFixed
+          fluid {
+            ...CloudinaryAssetFluid
           }
         }
       }
@@ -17,8 +18,12 @@ export default () => {
 
   return (
     <Image
-      fixed={ data.image.cloudinary.fixed }
-      alt="Shopify Logo"
+      fluid={ data.image.cloudinary.fluid }
+      alt='Shopify Logo'
+      sx={{
+        width: '20%',
+        flex: 1
+      }}
     />
   )
 }
