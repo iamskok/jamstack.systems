@@ -30,13 +30,13 @@ module.exports = {
         uploadFolder: 'gatsby-cloudinary',
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: "UA-148960582-1",
-    //     head: false
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-148960582-1",
+        head: false
+      },
+    },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
