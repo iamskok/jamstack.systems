@@ -16,5 +16,13 @@ export default () => {
     }
   `)
 
-  return <Image fluid={ data.image.cloudinary.fluid } alt="Monolithic Architectures" sx={{ maxWidth: '650px'}} />
+  return (
+    <Image
+      fluid={ data.image.cloudinary.fluid }
+      alt="Monolithic Architectures"
+      sx={{
+        maxWidth: '650px'
+      }}
+    />
+  )
 }
