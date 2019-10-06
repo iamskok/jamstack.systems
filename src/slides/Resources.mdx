@@ -1,14 +1,10 @@
 import Layout from '../components/Layout'
-import Resources from '../components/images/Resources'
-
-# Learn More
 
 <Split>
-  <ul
-    style={{
-      textAlign: 'left'
-    }}
-  >
+  <h1>
+    Learn More
+  </h1>
+  <ul>
     <li>
       <a href="https://www.netlify.com/pdf/oreilly-modern-web-development-on-the-jamstack.pdf">
         Modern web development on the JAMstack
@@ -70,7 +66,6 @@ import Resources from '../components/images/Resources'
       </a>
     </li>
   </ul>
-  <Resources />
 </Split>
 
 export default ({ children }) => <Layout title="Resources 📚">{ children }</Layout>
