@@ -3,33 +3,35 @@ import { Styled, jsx } from 'theme-ui'
 import { Link } from 'gatsby'
 
 const TOC = ({ children, opened }) => (
-  <section sx={{
-    position: 'absolute',
-    overflowY: 'scroll',
-    top: 0,
-    left: 0,
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100vh',
-    width: '100vw',
-    px: 2,
-    py: 2,
-    zIndex: 1000,
-    transition: 'all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94)',
-    transform: opened ? 'translate3D(0, 0, 0)' : 'translate3D(-100vw, 0, 0)',
-    backgroundColor: 'background'
-  }}>
+  <section
+    sx={{
+      position: 'absolute',
+      overflowY: 'scroll',
+      top: 0,
+      left: 0,
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+      width: '100vw',
+      p: 0,
+      m: 0,
+      zIndex: 1000,
+      transition: 'all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+      transform: opened ? 'translate3D(0, 0, 0)' : 'translate3D(-100vw, 0, 0)',
+      backgroundColor: 'background'
+    }}
+  >
     { children }
   </section>
 )
 
 export default ({ opened }) => (
   <TOC opened={ opened }>
-    <Styled.h2>
+    <Styled.h1 as="h2">
       <span role="img" aria-label="book">📖</span> Table of content
-    </Styled.h2>
+    </Styled.h1>
 
     <Styled.ul
       sx={{
