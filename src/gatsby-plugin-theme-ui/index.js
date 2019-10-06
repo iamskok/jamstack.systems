@@ -90,6 +90,9 @@ export default {
     body: 1.5,
     heading: 1.25
   },
+  breakpoints: [
+    '700px'
+  ],
   textStyles: {
     heading: {
       fontFamily: `heading`,
@@ -99,7 +102,7 @@ export default {
     display: {
       variant: `textStyles.heading`,
       fontSize: [
-        5,
+        4,
         6
       ],
       fontWeight: `display`,
@@ -122,11 +125,17 @@ export default {
     },
     h2: {
       variant: `textStyles.heading`,
-      fontSize: 5
+      fontSize: [
+        3,
+        5
+      ]
     },
     h3: {
       variant: `textStyles.heading`,
-      fontSize: 4
+      fontSize: [
+        3,
+        4
+      ]
     },
     h4: {
       variant: `textStyles.heading`,
@@ -201,7 +210,10 @@ export default {
     bottom: 0,
     color: 'accent',
     fontFamily: 'monospace',
-    fontSize: 3,
+    fontSize: [
+      2,
+      3
+    ],
     fontWeight: 'display',
     p: 2
   }
