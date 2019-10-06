@@ -6,8 +6,8 @@ import Image from 'gatsby-image'
 export default () => {
   const data = useStaticQuery(graphql`
     query {
-      file(name: { eq: "simpson" }) {
-        childCloudinaryAsset {
+      image: file(name: { eq: "simpson" }) {
+        cloudinary: childCloudinaryAsset {
           fluid {
             ...CloudinaryAssetFluid
           }
@@ -18,7 +18,7 @@ export default () => {
 
   return (
     <Image
-      fluid={ data.file.childCloudinaryAsset.fluid }
+      fluid={ data.image.cloudinary.fluid }
       alt='What should be simple is actually pretty painful'
       sx={{
         maxWidth: '650px'
