@@ -1,13 +1,13 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
+import { jsx, Styled } from 'theme-ui'
 
 export default ({ children }) => (
-  <h2
+  <Styled.h2
     sx={{
       color: 'primary',
       fontWeight: 'display'
     }}
   >
     { children }
-  </h2>
+  </Styled.h2>
 )
