@@ -452,6 +452,19 @@ export default ({ opened }) => (
           ❓
         </span>
       </Styled.li>
+
+      <Styled.li>
+        <Styled.a href="https://github.com/iamskok/jamstack.systems">
+          GitHub
+        </Styled.a>
+        <span
+            role="img"
+            aria-label="Source code"
+          >
+          {' '}
+          👨‍💻
+        </span>
+      </Styled.li>
     </Styled.ul>
   </TOC>
 )
