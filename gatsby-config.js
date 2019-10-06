@@ -37,6 +37,18 @@ module.exports = {
         head: false
       },
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `JAMstack.systems`,
+        short_name: `JAMstack.systems`,
+        start_url: `/`,
+        background_color: `#3cf`,
+        theme_color: `#e0f`,
+        display: `standalone`,
+        icon: `static/logo.png`
+      }
+    }
   ]
 }
