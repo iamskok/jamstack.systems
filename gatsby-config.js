@@ -49,6 +49,7 @@ module.exports = {
         display: `standalone`,
         icon: `static/logo.png`
       }
-    }
+    },
+    `gatsby-plugin-offline`
   ]
 }
