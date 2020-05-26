@@ -925,13 +925,13 @@
   dependencies:
     "@hapi/hoek" "8.x.x"
 
-"@mdx-deck/themes@^3.0.8":
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/@mdx-deck/themes/-/themes-3.0.8.tgz#970ef4058f3f504825e27b5d65b04d93b5edd744"
-  integrity sha512-dLxgSGjcdg5y6SiX6M5JQSUEPWNdqDOIJHmYi2OI7THp9W1dZadw4Yg2GLNsAU7B5lWdUkBe7HSYCkdfuumxyA==
+"@mdx-deck/themes@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@mdx-deck/themes/-/themes-3.1.0.tgz#83389daf147648aa44cc8ed2b53f3a5b52cb1c4a"
+  integrity sha512-i8wbjZ9rYhKXS60Lwq1tk3upz8fAVobm7orxAqOQunfarzOBXcecnVJh7rfcAjEF+2tGWZm7x3RT8rE9aABIAA==
   dependencies:
     lodash.merge "^4.6.1"
-    react-syntax-highlighter "^11.0.2"
+    react-syntax-highlighter "^12.2.1"
 
 "@mdx-js/mdx@^1.0.21":
   version "1.4.0"
@@ -4852,6 +4852,14 @@ gatsby-react-router-scroll@^2.1.7:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
+gatsby-remark-import-code@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-import-code/-/gatsby-remark-import-code-0.1.1.tgz#7cefff965f6f2c58685f7dab51359713e9f37bed"
+  integrity sha512-sFIgQbMlY5o3DHIHpVO8F4vca9JP1PHIZr9QtElDAPEzwSd5Bxig5OC/ztGhgmZtXpjX5/eazHtrsGwVdLZ6MQ==
+  dependencies:
+    shell-quote "^1.6.1"
+    unist-util-visit "^1.4.1"
+
 gatsby-source-filesystem@^2.1.3:
   version "2.1.19"
   resolved "https://registry.yarnpkg.com/gatsby-source-filesystem/-/gatsby-source-filesystem-2.1.19.tgz#7fbe258ddd7d2feb0393c58af71b304798bf25a2"
@@ -4896,13 +4904,13 @@ gatsby-telemetry@^1.1.21:
     stack-utils "1.0.2"
     uuid "3.3.3"
 
-gatsby-theme-mdx-deck@3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-mdx-deck/-/gatsby-theme-mdx-deck-3.0.9.tgz#fcf661a9f209535d1dbca324a91b8943c4e5e400"
-  integrity sha512-h/U3RPqgqThGHd8tsd7l5KNyS1swsMl+r8h16izs4uFhEoiRm9+eFg7RkxsjquB3OpRE49KVR+IiAMk06zbtzg==
+gatsby-theme-mdx-deck@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-mdx-deck/-/gatsby-theme-mdx-deck-3.1.0.tgz#84c8d1bb6f6fcb017ae0542f15001a6b9d11ec71"
+  integrity sha512-QKp41TmUtPLe5gTE2pIa6U+LJJe6gci1AuTN7HwBy3zke0f15Ebw0CmxIt0lZtTo13PC1CiYJtdO8hGT/q/BMg==
   dependencies:
     "@emotion/core" "^10.0.14"
-    "@mdx-deck/themes" "^3.0.8"
+    "@mdx-deck/themes" "^3.1.0"
     "@mdx-js/mdx" "^1.0.21"
     "@mdx-js/react" "^1.0.21"
     "@reach/router" "^1.2.1"
@@ -4914,6 +4922,7 @@ gatsby-theme-mdx-deck@3.0.9:
     gatsby-plugin-mdx "^1.0.13"
     gatsby-plugin-react-helmet "^3.1.0"
     gatsby-plugin-theme-ui "^0.2.6"
+    gatsby-remark-import-code "^0.1.1"
     gatsby-source-filesystem "^2.1.3"
     hhmmss "^1.0.0"
     lodash.get "^4.4.2"
@@ -5567,10 +5576,10 @@ hhmmss@^1.0.0:
   resolved "https://registry.yarnpkg.com/hhmmss/-/hhmmss-1.0.0.tgz#06c765a9908a8884b72003c17a839c879ca92a7c"
   integrity sha1-BsdlqZCKiIS3IAPBeoOch5ypKnw=
 
-highlight.js@~9.13.0:
-  version "9.13.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.1.tgz#054586d53a6863311168488a0f58d6c505ce641e"
-  integrity sha512-Sc28JNQNDzaH6PORtRLMvif9RSn1mYuOoX3omVjnb0+HbpPygU2ALBI0R/wsiqCb4/fcp07Gdo8g+fhtFrQl6A==
+highlight.js@~9.15.0, highlight.js@~9.15.1:
+  version "9.15.10"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
+  integrity sha512-RoV7OkQm0T3os3Dd2VHLNMoaoDVx77Wygln3n9l5YV172XonWG6rgQD3XnF/BuFFZw9A0TJgmMSO8FEWQgvcXw==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -6929,13 +6938,13 @@ lowercase-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
   integrity sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
 
-lowlight@~1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-1.11.0.tgz#1304d83005126d4e8b1dc0f07981e9b689ec2efc"
-  integrity sha512-xrGGN6XLL7MbTMdPD6NfWPwY43SNkjf/d0mecSx/CW36fUZTjRHEq0/Cdug3TWKtRXLWi7iMl1eP0olYxj/a4A==
+lowlight@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-1.12.1.tgz#014acf8dd73a370e02ff1cc61debcde3bb1681eb"
+  integrity sha512-OqaVxMGIESnawn+TU/QMV5BJLbUghUfjDWPAtFqDYDmDtr4FnB+op8xM+pR7nKlauHNUHXGt0VgWatFB8voS5w==
   dependencies:
     fault "^1.0.2"
-    highlight.js "~9.13.0"
+    highlight.js "~9.15.0"
 
 lru-cache@4.0.0:
   version "4.0.0"
@@ -9075,14 +9084,14 @@ react-swipeable@^5.3.0:
   dependencies:
     prop-types "^15.6.2"
 
-react-syntax-highlighter@^11.0.2:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-11.0.2.tgz#4e3f376e752b20d2f54e4c55652fd663149e4029"
-  integrity sha512-kqmpM2OH5OodInbEADKARwccwSQWBfZi0970l5Jhp4h39q9Q65C4frNcnd6uHE5pR00W8pOWj9HDRntj2G4Rww==
+react-syntax-highlighter@^12.2.1:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-12.2.1.tgz#14d78352da1c1c3f93c6698b70ec7c706b83493e"
+  integrity sha512-CTsp0ZWijwKRYFg9xhkWD4DSpQqE4vb2NKVMdPAkomnILSmsNBHE0n5GuI5zB+PU3ySVvXvdt9jo+ViD9XibCA==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    highlight.js "~9.13.0"
-    lowlight "~1.11.0"
+    highlight.js "~9.15.1"
+    lowlight "1.12.1"
     prismjs "^1.8.4"
     refractor "^2.4.1"
 
@@ -9888,6 +9897,11 @@ shell-quote@1.6.1:
     array-map "~0.0.0"
     array-reduce "~0.0.0"
     jsonify "~0.0.0"
+
+shell-quote@^1.6.1:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
+  integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
 
 sift@^5.1.0:
   version "5.1.0"
