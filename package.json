@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "gatsby": "2.15.2",
-    "gatsby-image": "2.2.23",
-    "gatsby-plugin-google-analytics": "2.1.19",
-    "gatsby-plugin-sitemap": "2.2.16",
+    "gatsby-image": "3.11.0",
+    "gatsby-plugin-google-analytics": "5.13.1",
+    "gatsby-plugin-sitemap": "6.13.1",
     "gatsby-theme-mdx-deck": "3.1.0",
     "gatsby-transformer-cloudinary": "0.3.5",
     "react": "16.13.1",
